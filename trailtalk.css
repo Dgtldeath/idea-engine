@@ -43,6 +43,10 @@ h5 {
     padding: 2rem;
 }
 
+.hero-content h1 {
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+}
+
 /* Animations */
 .fade-in {
     opacity: 0;
