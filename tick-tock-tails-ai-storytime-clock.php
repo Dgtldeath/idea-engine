@@ -61,8 +61,8 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-semibold d-flex align-items-center gap-2" href="#top">
-        <img src="https://placehold.co/64x64/png" alt="TickTock Tales app icon" class="app-icon">
+      <a class="navbar-brand fw-semibold d-flex align-items-center gap-2" href="#top" style="color: #e9eefc;">
+        <img src="../assets/kids-bedtime-icon.png" alt="TickTock Tales app icon" class="app-icon">
         <span>TickTock Tales</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,17 +90,16 @@
         <div class="col-lg-6">
           <div class="app-card p-4 p-md-5">
             <div class="d-flex align-items-center gap-3 mb-3">
-              <img src="https://placehold.co/96x96/png" class="app-icon" alt="TickTock Tales icon">
+              <img src="../assets/kids-bedtime-icon.png" class="app-icon" alt="TickTock Tales icon">
               <div>
                 <h1 class="h2 mb-1">TickTock Tales: <span>Bedtime Clock</span></h1>
-                <p class="mb-0 muted">A soothing bedtime app that helps kids stay cozy until the light turns green.</p>
+                <p class="mb-0 muted">The screen turns green to let your child know it’s okay to come get you in the morning. Stories are generated on‑demand based on your options using a GPT backend.</p>
               </div>
             </div>
             <div class="d-flex flex-wrap gap-2 mb-3">
               <span class="badge stack-badge">Swift & SwiftUI</span>
               <span class="badge stack-badge">iPhone + iPad</span>
-              <span class="badge stack-badge">CoreData</span>
-              <span class="badge stack-badge">Local Notifications</span>
+              <span class="badge stack-badge">SwiftData</span>
               <span class="badge stack-badge">AI Story Generator</span>
             </div>
             <div class="d-flex gap-2">
@@ -125,7 +124,7 @@
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <h2 class="display-6 mb-3">A Smart Bedtime Clock That Rewards Rest</h2>
-          <p class="lead muted">TickTock Tales blends storytelling, child psychology, and clean UX design to make bedtime smoother for parents and magical for kids. Each night, a new soothing story awaits—unlocked when the morning clock turns green.</p>
+          <p class="lead muted">The screen turns green, which tells your child it’s okay to come get you in the morning. Stories are generated on‑demand via user‑chosen options and a GPT backend to write the story.</p>
           <div class="d-flex gap-3 mt-4">
             <a class="btn btn-success" href="#features"><i class="bi bi-moon-stars me-2"></i>Explore Features</a>
             <a class="btn btn-outline-light" href="#build"><i class="bi bi-gear-wide-connected me-2"></i>How it was built</a>
@@ -187,11 +186,10 @@
           </div>
         </div>
         <div class="col-lg-5 order-lg-1">
-          <h2 class="h2 mb-3">Quiet, Screen‑Safe UX</h2>
-          <p class="muted">No flashy screens. No dopamine traps. Just soothing sounds, soft colors, and meaningful morning rituals.</p>
+          <h2 class="h2 mb-3">Modern UI, Effortless for Parents to Start Story Time</h2>
+          <p class="muted">A modern UI that follows Apple’s Human Interface Guidelines—soothing, simple, and predictable for kids and straight forward for parents.</p>
           <ul class="list-unstyled mt-4">
             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Minimal, distraction‑free visuals</li>
-            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Gentle haptics & local notifications</li>
             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Accessible typography & contrast</li>
             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Works offline once installed</li>
           </ul>
@@ -213,7 +211,7 @@
               <div class="feature-icon"><i class="bi bi-palette"></i></div>
               <h5 class="mb-0">Design</h5>
             </div>
-            <p class="muted mb-0">Figma wireframes, adaptive iPad layout, accessible color palette, motion micro‑interactions, App Store assets.</p>
+            <p class="muted mb-0">Modern UI following Apple design standards, adaptive iPad layout, accessible color palette, App Store assets.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -222,10 +220,10 @@
               <div class="feature-icon"><i class="bi bi-code-slash"></i></div>
               <h5 class="mb-0">Development</h5>
             </div>
-            <p class="muted mb-2">Swift + SwiftUI, CoreData for persistence, custom timer engine, state management, local notifications, modular architecture.</p>
+            <p class="muted mb-2">Swift + SwiftUI, SwiftData for persistence, custom timer engine, state management, modular architecture.</p>
             <div class="d-flex flex-wrap gap-2">
               <span class="badge stack-badge">SwiftUI</span>
-              <span class="badge stack-badge">CoreData</span>
+              <span class="badge stack-badge">SwiftData</span>
               <span class="badge stack-badge">Combine</span>
               <span class="badge stack-badge">JSON</span>
             </div>
@@ -345,7 +343,7 @@
   <footer class="py-4 mt-5">
     <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
       <div class="d-flex align-items-center gap-3">
-        <img src="https://placehold.co/48x48/png" class="rounded" alt="App icon small">
+        <img src="../assets/kids-bedtime-icon.png" class="rounded" alt="App icon small" style="max-width: 250px;">
         <div>
           <div class="small">TickTock Tales: Bedtime Clock</div>
           <div class="small text-muted">Built with ❤️ by Adam Gumm</div>
