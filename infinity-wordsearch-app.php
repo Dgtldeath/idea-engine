@@ -452,7 +452,7 @@
             </div>
             <div class="d-flex flex-wrap gap-2 mt-4">
               <a href="#" class="btn btn-light text-dark"><i class="bi bi-envelope me-2"></i>Contact Adam</a>
-              <a href="#" class="btn btn-outline-light"><i class="bi bi-window-sidebar me-2"></i>View Portfolio</a>
+              <a href="/projects/" class="btn btn-outline-light"><i class="bi bi-window-sidebar me-2"></i>View Portfolio</a>
             </div>
           </div>
         </div>

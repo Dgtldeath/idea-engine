@@ -34,6 +34,36 @@
         </div>
     </section>
 
+    <!-- Who It's For / Problem Solved / Business Value -->
+    <section id="who-for" class="container py-5 fade-up">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="p-4 h-100 rounded shadow-sm bg-white">
+                    <h4 class="h5 mb-3">Who It's For</h4>
+                    <p class="mb-0 small text-muted">Parks, nature centers, outdoor education programs, and family-oriented destinations that want to deepen visitor engagement without hiring a dev team.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-4 h-100 rounded shadow-sm bg-white">
+                    <h4 class="h5 mb-3">Problem Solved</h4>
+                    <p class="mb-0 small text-muted">Visitors arrive with questions about trails, wildlife, and landmarks but often leave without answers. TrailTalk gives them instant, context-aware AI responses based on where they are.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-4 h-100 rounded shadow-sm bg-white">
+                    <h4 class="h5 mb-3">Business Value</h4>
+                    <p class="mb-0 small text-muted">White-label app, gamification for families, and an admin portal to update trail status and alerts. I can build this for your park or nature center.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-4 h-100 rounded shadow-sm bg-white">
+                    <h4 class="h5 mb-3">Tech Stack</h4>
+                    <p class="mb-0 small text-muted">RAG (retrieval-augmented generation), GPT, GPS-aware context, park-specific data ingestion. Mobile-first UI with optional white-label theming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Features Grid -->
     <section id="features" class="container py-5 fade-up">
         <div class="text-center mb-5">
